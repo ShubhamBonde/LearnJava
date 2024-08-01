@@ -1,7 +1,18 @@
+/*
+    Problem: Write a Java code to print the following pattern:
+
+        S            M
+        SH          MA
+        SHU        MAH
+        SHUB      MAHB
+        SHUBH    MAHBU
+        SHUBHA  MAHBUH
+        SHUBHAMMAHBUHS
+*/
 public class HelloWorld {
     public static void main(String[] args) {
         
-        Character[] lettersInName = {'R', 'A', 'J', 'U', 'B', 'H', 'A', 'I'};
+        Character[] lettersInName = {'S', 'H', 'U', 'B', 'H', 'A', 'M'};
         int lettersLength = lettersInName.length;
 
         // First half of the pyramid
